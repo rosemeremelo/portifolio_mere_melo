@@ -1,0 +1,82 @@
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+</style>
+
+* {
+    margin: 0;
+    padding :0;
+
+}
+body {
+    height: 100vh;
+    background-color: rgb(8, 75, 99);
+    color: white;
+}
+
+.destaque-nome {
+    color:rgb(152, 197, 242);
+}
+strong {
+    color:rgb(188, 231, 231);
+}
+
+.apresentar {
+    margin: 10% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.apresentar-texto {
+    width: 615px;
+}
+
+.apresentar-titulo {
+    font-size: 36px;
+    font-family: "Poetsen One", sans-serif;
+}
+
+.apresentar-conteudo {
+    font-size: 20px;
+    font-family: "Poetsen One", sans-serif;
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.apresentar-evidencia {
+    font-size:20px ;
+}
+
+.apresentar-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.apresentar-link-midiasociais {
+   
+    border: 2px seashell solid;
+    width: 200px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Poetsen One", sans-serif;
+    color:rgb(216, 228, 233);
+    padding: 20.5px 10px;
+    text-decoration: none;
+   
+}
+
+.apresentarsubtitulo-links {
+    font-size: 20px;
+    font-family: "Poetsen One", sans-serif;
+    color:seashell;
+    
+
+}
